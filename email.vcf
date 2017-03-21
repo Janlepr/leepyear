@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 10.2//EN
+N:System;Applicant;Tracking;;
+FN: Applicant Tracking System 
+item1.EMAIL;type=INTERNET;type=pref:offers@email.horoscopedaily.email
+item1.X-ABLabel:_$!<Other>!$_
+END:VCARD

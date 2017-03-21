@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>searchcode tests</title>
+  <link rel="stylesheet" href="./qunit-git.css">
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <script src="./qunit-git.js"></script>
+  <script src="../../main/resources/public/js/underscore-min.js"></script>
+  <script src="../../main/resources/public/js/mithril.min.js"></script>
+  <script src="../../main/resources/public/js/script.js"></script>
+<script>
+QUnit.module('HelperModel');
+QUnit.test( 'humanise', function( assert ) {
+  assert.equal(HelperModel.humanise(1), '1 Day ');
+  assert.equal(HelperModel.humanise(2), '2 Days ');
+  assert.equal(HelperModel.humanise(3), '3 Days ');
+  assert.equal(HelperModel.humanise(7), '7 Days ');
+  assert.equal(HelperModel.humanise(30), '1 Month ');
+  assert.equal(HelperModel.humanise(60), '2 Months ');
+  assert.equal(HelperModel.humanise(365), '1 Year ');
+  assert.equal(HelperModel.humanise(365 * 2), '2 Years ');
+
+  assert.equal(HelperModel.humanise(56), '1 Month 26 Days ');
+  assert.equal(HelperModel.humanise(400), '1 Year 1 Month 5 Days ');
+});
+
+QUnit.test( 'getDateSpan', function( assert ) {
+  assert.equal(HelperModel.getDateSpan(new Date(), new Date()).length, 1);
+  assert.equal(HelperModel.getDateSpan(new Date(2000,01,01), new Date(2000,01,10)).length, 10);
+});
+
+QUnit.test( 'yearMonthDayToDate', function( assert ) {
+  assert.equal(HelperModel.yearMonthDayToDate('2000-12-12').getFullYear(), 2000);
+  assert.equal(HelperModel.yearMonthDayToDate('2000-12-12').getMonth(), 11);
+  assert.equal(HelperModel.yearMonthDayToDate('2000-12-12').getDate(), 12);
+});
+
+QUnit.test( 'yearMonthDayToDate', function( assert ) {
+  assert.equal(HelperModel.yearMonthDayToDate('2000-12-12').getFullYear(), 2000);
+  assert.equal(HelperModel.yearMonthDayToDate('2000-12-12').getMonth(), 11);
+  assert.equal(HelperModel.yearMonthDayToDate('2000-12-12').getDate(), 12);
+});
+
+QUnit.module('SearchModel');
+QUnit.test( 'clearfilters', function( assert ) {
+  SearchModel.langfilters('notwhatweexpect');
+  assert.equal(SearchModel.langfilters(), 'notwhatweexpect');
+  SearchModel.repositoryfilters('notwhatweexpect');
+  assert.equal(SearchModel.repositoryfilters(), 'notwhatweexpect');
+  
+  SearchModel.ownfilters('notwhatweexpect');
+  assert.equal(SearchModel.ownfilters(), 'notwhatweexpect');
+  SearchModel.yearfilters('notwhatweexpect');
+  assert.equal(SearchModel.yearfilters(), 'notwhatweexpect');
+  SearchModel.yearmonthfilters('notwhatweexpect');
+  assert.equal(SearchModel.yearmonthfilters(), 'notwhatweexpect');
+  SearchModel.yearmonthdayfilters('notwhatweexpect');
+  assert.equal(SearchModel.yearmonthdayfilters(), 'notwhatweexpect');
+  SearchModel.revisionfilters('notwhatweexpect');
+  assert.equal(SearchModel.revisionfilters(), 'notwhatweexpect');
+  SearchModel.deletedfilters('notwhatweexpect');
+  assert.equal(SearchModel.deletedfilters(), 'notwhatweexpect');
+
+  SearchModel.clearfilters();
+
+  assert.equal(SearchModel.langfilters().length, 0);
+  assert.equal(SearchModel.repositoryfilters().length, 0);
+  assert.equal(SearchModel.ownfilters().length, 0);
+  assert.equal(SearchModel.yearfilters().length, 0);
+  assert.equal(SearchModel.yearmonthfilters().length, 0);
+  assert.equal(SearchModel.yearmonthdayfilters().length, 0);
+  assert.equal(SearchModel.revisionfilters().length, 0);
+  assert.equal(SearchModel.deletedfilters().length, 0);
+});
+
+QUnit.test( 'toggleinstant', function( assert ) {
+  var current = SearchModel.filterinstantly();
+  SearchModel.toggleinstant();
+  assert.notEqual(current, SearchModel.filterinstantly());
+  assert.notEqual(current, JSON.parse(localStorage.getItem('toggleinstant')));
+});
+
+QUnit.test( 'togglehistory', function( assert ) {
+  var current = SearchModel.searchhistory();
+  SearchModel.togglehistory();
+  assert.notEqual(current, SearchModel.searchhistory());
+  assert.notEqual(current, JSON.parse(localStorage.getItem('togglehistory')));
+});
+
+QUnit.test( 'getstringtitle', function( assert ) {
+  // TODO add more tests here for the history filter logic
+  SearchModel.query('my search string');
+  assert.equal(SearchModel.getstringtitle(), '"my search string"');
+  
+  SearchModel.activerepositoryfilters(['one']);
+  assert.equal(SearchModel.getstringtitle(), '"my search string" filtered by repository "one"');
+  SearchModel.activerepositoryfilters(['one', 'two']);
+  assert.equal(SearchModel.getstringtitle(), '"my search string" filtered by repositories "one, two"');
+
+  SearchModel.activelangfilters(['java']);
+  assert.equal(SearchModel.getstringtitle(), '"my search string" filtered by repositories "one, two" and language "java"');
+  SearchModel.activelangfilters(['java', 'python']);
+  assert.equal(SearchModel.getstringtitle(), '"my search string" filtered by repositories "one, two" and languages "java, python"');
+
+  SearchModel.activeownfilters(['person1']);
+  assert.equal(SearchModel.getstringtitle(), '"my search string" filtered by repositories "one, two" and languages "java, python" and owner "person1"');
+  SearchModel.activeownfilters(['person1', 'person2']);
+  assert.equal(SearchModel.getstringtitle(), '"my search string" filtered by repositories "one, two" and languages "java, python" and owners "person1, person2"');
+});
+
+QUnit.test( 'togglefilter', function( assert ) {
+  SearchModel.togglefilter('language', 'test');
+  assert.equal(SearchModel.langfilters()[0], 'test');
+  SearchModel.togglefilter('language', 'test');
+  assert.equal(SearchModel.langfilters().length, 0);
+
+  SearchModel.togglefilter('repo', 'test');
+  assert.equal(SearchModel.repositoryfilters()[0], 'test');
+  SearchModel.togglefilter('repo', 'test');
+  assert.equal(SearchModel.repositoryfilters().length, 0);
+
+  SearchModel.togglefilter('owner', 'test');
+  assert.equal(SearchModel.ownfilters()[0], 'test');
+  SearchModel.togglefilter('owner', 'test');
+  assert.equal(SearchModel.ownfilters().length, 0);
+});
+
+QUnit.test( 'filterexists', function( assert ) {
+  SearchModel.langfilters(['test']);
+  assert.ok(SearchModel.filterexists('language', 'test'));
+  assert.notOk(SearchModel.filterexists('language', 'test2'));
+
+  SearchModel.repositoryfilters(['test']);
+  assert.ok(SearchModel.filterexists('repo', 'test'));
+  assert.notOk(SearchModel.filterexists('repo', 'test2'));
+
+  SearchModel.ownfilters(['test']);
+  assert.ok(SearchModel.filterexists('owner', 'test'));
+  assert.notOk(SearchModel.filterexists('owner', 'test2'));
+});
+
+QUnit.test( 'getlangfilters', function( assert ) {
+  SearchModel.langfilters([]);
+  assert.equal(SearchModel.getlangfilters(), '');
+  SearchModel.langfilters(['test']);
+  assert.equal(SearchModel.getlangfilters(), '&lan=test');
+  SearchModel.langfilters(['test1', 'test2']);
+  assert.equal(SearchModel.getlangfilters(), '&lan=test1&lan=test2');
+});
+
+QUnit.test( 'getrepofilters', function( assert ) {
+  SearchModel.repositoryfilters([]);
+  assert.equal(SearchModel.getrepofilters(), '');
+  SearchModel.repositoryfilters(['test']);
+  assert.equal(SearchModel.getrepofilters(), '&repo=test');
+  SearchModel.repositoryfilters(['test1', 'test2']);
+  assert.equal(SearchModel.getrepofilters(), '&repo=test1&repo=test2');
+});
+
+QUnit.test( 'getownfilters', function( assert ) {
+  SearchModel.ownfilters([]);
+  assert.equal(SearchModel.getownfilters(), '');
+  SearchModel.ownfilters(['test']);
+  assert.equal(SearchModel.getownfilters(), '&own=test');
+  SearchModel.ownfilters(['test1', 'test2']);
+  assert.equal(SearchModel.getownfilters(), '&own=test1&own=test2');
+});
+
+QUnit.module('SearchComponent');
+QUnit.test( 'view', function( assert ) {
+  var result = SearchComponent.view();
+  assert.equal(result.tag, 'div');
+  assert.equal(result.children.length, 5);
+  assert.equal(result.children[4].tag, 'div');
+});
+
+QUnit.module('SearchNoResultsComponent');
+QUnit.test( 'view', function( assert ) {
+  var result = SearchNoResultsComponent.view(null, {totalhits: 10});
+  assert.equal(result.tag, 'div');
+  assert.equal(result.children.length, 0);
+
+  result = SearchNoResultsComponent.view(null, {totalhits: 0, altquery: [], query: 'my query'});
+  assert.equal(result.children[0].tag, 'h4')
+  assert.ok(result.children[0].children[0].indexOf('No results found for ') !== -1);
+  assert.equal(result.children[0].children[1].tag, 'i')
+  assert.ok(result.children[0].children[1].children[0].indexOf('my query') !== -1);
+
+
+  result = SearchNoResultsComponent.view(null, {totalhits: 0, altquery: ['one', 'two'], query: 'my query'});
+  
+  assert.deepEqual(result.children[1].children[0], {
+    "attrs": {},
+    "children": [
+      "Try one of the following searches instead"
+    ],
+    "tag": "h5"
+  });
+
+  assert.deepEqual(result.children[1].children[1].children[0].children[0].children[0], 'one');
+  assert.deepEqual(result.children[1].children[1].children[1].children[0].children[0], 'two');
+});
+
+QUnit.test( 'controller', function( assert ) {
+  var result = SearchNoResultsComponent.controller();
+  var called = false;
+  SearchModel.search = function() { called = true; };
+  result.doaltquery('myquery');
+
+  assert.equal('myquery', SearchModel.searchvalue());
+  assert.ok(called);
+});
+
+QUnit.module('SearchLoadingComponent');
+QUnit.test( 'view', function( assert ) {
+  SearchModel.currentlyloading(false);
+  var result = SearchLoadingComponent.view();
+  
+  assert.deepEqual(result, {
+    "attrs": {
+      "className": "search-loading",
+      "style": {
+        "display": "none"
+      }
+    },
+    "children": [
+      {
+        "attrs": {
+          "src": "/img/loading.gif"
+        },
+        "children": [],
+        "tag": "img"
+      },
+      {
+        "attrs": {},
+        "children": [
+          "Loading..."
+        ],
+        "tag": "h5"
+      }
+    ],
+    "tag": "div"
+  });
+
+  SearchModel.currentlyloading(true);
+  var result = SearchLoadingComponent.view();
+  
+  assert.deepEqual(result, {
+    "attrs": {
+      "className": "search-loading"
+    },
+    "children": [
+      {
+        "attrs": {
+          "src": "/img/loading.gif"
+        },
+        "children": [],
+        "tag": "img"
+      },
+      {
+        "attrs": {},
+        "children": [
+          "Loading..."
+        ],
+        "tag": "h5"
+      }
+    ],
+    "tag": "div"
+  });
+});
+
+
+
+</script>
+</body>
+</html>

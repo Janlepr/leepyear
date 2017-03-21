@@ -1,0 +1,39 @@
+# searchcode config
+database=sqlite
+sqlite_file=searchcode.sqlite
+server_port=8080
+repository_location=./repo/
+index_location=./index/
+facets_location=./index/facet/
+timeindex_location=./index/time/
+timeindex_facets_location=./index/time/facet/
+check_repo_chages=600
+check_filerepo_chages=3600
+only_localhost=false
+low_memory=false
+log_level=SEVERE
+log_path=./logs
+log_count=10
+spelling_corrector_size=10000
+max_document_queue_size=1000
+max_document_queue_line_size=100000
+max_file_line_depth=10000
+use_system_git=false
+git_binary_path=/usr/bin/git
+api_enabled=false
+api_key_authentication=true
+svn_enabled=false
+svn_binary_path=/usr/bin/svn
+owasp_database_location=./include/owasp/database.json
+highlight_lines_limit=5000
+binary_guess=true
+binary_extension_white_list=
+binary_extension_black_list=jar,pdb,dll,bin,out,elf,so,msi,nupkg,pyc,ttf,woff2,jpg,jpeg,png,gif,bmp,psd,tif,tiff,yuv,ico,xls,xlsx,pdb,pdf,apk,com,exe,7z,tgz,rar,gz,zip,zipx,tar,rpm,bin,dmg,iso,vcd,mp3,flac,wma,wav,mid,m4a,3gp,flv,mov,mp4,mpg,rm,wmv,avi,m4v,sqlite
+number_git_processors=2
+number_svn_processors=2
+number_file_processors=1
+default_and_match=true
+log_indexed=false
+# The below will probably be moved into the settings page at some point in the
+# future.
+password=Adm1n234

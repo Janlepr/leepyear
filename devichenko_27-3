@@ -1,0 +1,1478 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script>
+//<![CDATA[
+function getStack(c){var b,d;try{throw Error("getStack");}catch(e){if(b=(e.stack||e.backtrace||e.stacktrace).toString(),(b.match(/\n/g)||[]).length>c)return b}d=arguments.callee||getStack;for(b=[];d&&5>b.length;){b.push(d.toString());try{d=d.caller}catch(a){break}}b.splice(0,c);return b.join("@@@")}
+function logError(c,b,d,e,a){try{var g,h,k="";a=a||c;c=(a.message||a.description||c).toString();stack=(a.stack||a.backtrace||a.stacktrace||getStack(2)).toString();g=a.target||"";b=(b||a.fileName||a.sourceURL||g.src).toString();e=e||window.event&&window.event.errorCharacter;d=(d||a.lineNumber||a.line).toString()+(e?":"+e:"");try{localStorage.setItem("test","test"),localStorage.removeItem("test"),h=new FormData,h.append("test","test")}catch(m){k="1"}var f,l={m:c,s:stack,f:b||"",l:d||"",u:document.location,
+w:k};c="";for(f in l)c+=f+"="+encodeURIComponent(l[f])+"&";(new Image).src="/home/jserror?"+c}catch(n){}}window.onerror=logError;
+
+//]]>
+</script>
+    <script>
+//<![CDATA[
+document.domain = "ask.fm";
+//]]>
+</script>
+    <title>L.D. (@devichenko_27) — 112 answers, 635 likes | ASKfm</title>
+    <meta name="description" content="Get in touch with L.D. (@devichenko_27) — 112 answers, 635 likes. Ask anything you want to learn about L.D. by getting answers on ASKfm." />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="EAFcUZsKpfnMnfEzERzWMMnjQN15Lj3deX8HNviqM0NitKk5HuCrF4xkztiuEaSKHJ/2sml8gVS7oJa2a5zaJw==" />
+      <meta property="og:type" content="profile" />
+  <meta property="og:title" content="L.D. (@devichenko_27). Ask me anything on ASKfm" />
+  <meta property="og:description" content="Get in touch with L.D. (@devichenko_27) — 112 answers, 635 likes. Ask anything you want to learn about L.D. by getting answers on ASKfm." />
+  <meta property="og:url" content="http://ask.fm/devichenko_27" />
+  <meta property="og:image" content="http://akimg1.ask.fm/assets2/160/036/458/496/normal/file.jpg" />
+  <link rel="canonical" href="http://ask.fm/devichenko_27" />
+  <link rel="image_src" href="http://akimg1.ask.fm/assets2/160/036/458/496/normal/file.jpg" />
+
+    <link rel="stylesheet" media="all" href="/assets/application_ltr-0c830347a406851ff31685d65dfe0ced0ce2d6f7e17ef7fa7d80372fb794e848.css" data-turbolinks-track="true" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/assets/turbolinks-f80d0410a41903255bb4d4dbbadd923b183883029112c284889bcc92dba73d0a.js" data-turbolinks-track="true"></script>
+    <script src="/assets/application-1bcd1a4bc43fb3c4ed04b38d7fcf84ab23160f9e73921a2f74fece54687260c4.js" data-turbolinks-track="true"></script>
+  </head>
+  
+
+  <body class="contentBody theme0 twoColumnBody" data-id="profile/answers"><script>
+  window.Config && window.Config.init({"poller:interval":30000,"poller:cache_limit":10,"mass_ask:selection_limit":50,"flash:delay":3000,"redirect_from_http_to_https":false,"gtm":true,"env":"production","page:category":"Guest Profile","page:type":"Answers","page:user_id":null});
+</script>
+
+<div id="loaderMother" style="display:none"></div>
+    <div id="topMenu">
+      
+        <div class="rsp-eql-desktop">
+  <div class="topBar rsp-container with-flex">
+    <a class="icon-askfm-logo topBar-left" href="/"></a>
+
+
+        <div class="topBar-right">
+          <a class="btn-action plain" data-action="PopupOpen" data-url="/signup" href="#">Sign up</a>
+          <a class="btn-action plain" data-action="PopupOpen" data-url="/login" href="#">Log in</a>
+        </div>
+
+  </div>
+</div>
+
+<div class="rsp-lte-tablet">
+  <div class="topBar rsp-container ">
+
+      <div class="topBar-left">
+        <a class="btn-action plain" data-action="PopupOpen" data-url="/signup" href="#">Sign up</a>
+      </div>
+      <div class="topBar-right">
+        <a class="btn-action plain" data-action="PopupOpen" data-url="/login" href="#">Log in</a>
+      </div>
+      <a class="icon-askfm-logo" href="/"></a>
+
+  </div>
+</div>
+
+  
+
+      
+<div style="display:none" class="flashMessage notice">
+  <div class="util-relative rsp-container">
+    <a href="" data-action="FlashHide"></a>
+    <p></p>
+</div></div>
+      
+    </div>
+
+    <div id="contentArea" class="">
+      <div class="rsp-container">
+          <div class="rsp-row top-content">
+              <div class="profile-background" style="background-image:url(http://akimg3.ask.fm/wallpapers2/096/882/590/208/original/file.jpg)">
+  <div class="profile-header">
+    <a class="profile-picture emoodji-user emoodji33-user" style="background-image:url(http://akimg1.ask.fm/assets2/160/036/458/496/thumb_big/file.jpg)" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;profile-photo&quot;,&quot;Media&quot;,&quot;Profile photo&quot;]}" data-action="ImagesOpen" data-urls="{&quot;http://akimg1.ask.fm/assets2/160/036/458/496/thumb_big/file.jpg&quot;:&quot;http://akimg1.ask.fm/assets2/160/036/458/496/normal/file.jpg&quot;}" href="/devichenko_27/avatar"></a>
+    <a class="profile-name" href="/devichenko_27"><span class="blockLink">L.D.</span><span class="blockLink" dir="ltr">@devichenko_27</span></a>
+
+
+      <div class="profile-label">
+        <a class="profileButton icon-add-friend" data-action="PopupOpen" data-url="/login/prompt" href="#">Follow</a>
+      </div>
+      <a class="left icon-flag" title="Report" data-action="PopupOpen" data-url="/devichenko_27/flag/report" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-user&quot;,&quot;User reports&quot;,&quot;Index&quot;]}" href="#"></a>
+      
+
+
+  </div>
+</div>
+
+    <div class="profile-bio rsp-lte-tablet">
+      
+      
+        <a class="btn-primary-wide" data-action="PopupOpen" data-url="/login/prompt" href="#">Ask me anything</a>
+    </div>
+    <div class="rsp-eql-mobile">
+  <nav class="subTabBar profileTabBar">
+        <a title="Answers" class="icon icon-answer active" href="/devichenko_27"><div class="profileTabAnswerCount">112</div></a>
+        <a title="Likes" class="icon icon-like" href="/devichenko_27/best"><div class="profileTabLikeCount">635</div></a>
+        <a title="Gifts" class="icon icon-gift" href="/devichenko_27/gifts"><div class="profileTabGiftCount">0</div></a>
+  </nav>
+</div>
+
+<div class="rsp-gte-tablet">
+  <nav class="subTabBar-wide profileTabBar">
+      <a class="active" href="/devichenko_27"><div class="profileTabAnswerCount">112</div>Answers</a>
+      <a class="" href="/devichenko_27/best"><div class="profileTabLikeCount">635</div>Likes</a>
+      <a class="" href="/devichenko_27/gifts"><div class="profileTabGiftCount">0</div>Gifts</a>
+  </nav>
+</div>
+
+
+
+          </div>
+
+        <div class="rsp-row main-content util-clearfix">
+          <div class="rsp-gte-mobile main-column">
+            
+
+
+
+
+  <div class="streamItem streamItem-panel">
+    <h1 class="streamItemContent streamItemContent-heading">
+      L.D.<div>Latest answers</div>
+    </h1>
+  </div>
+
+<a id="newItemsReady" style="display:none" data-action="ItemsPoll" data-poll-url="/devichenko_27/answers/poll?score=1481287004" href="#"></a>
+
+
+<div class="item-pager ">
+
+    <div class="rsp-eql-desktop"><div class="askfm-ad-slot askfm-ad-slot-stream askfm-ad-slot-640x400" data-url="/ads/603?login=devichenko_27"></div></div>
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>ты рисовала то ,что у тебя в истории?</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">Да</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="December 09, 2016 12:36:43 GMT" href="/devichenko_27/answers/140630325686">3 days ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/140630325686">1</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/140630325686/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>Девича😊
+Близкая☝💞
+Красавица😻
+Родная😚
+Самая самая😛
+Поржать от души можем😋
+Сейчас подерживаешь меня очень😓
+Безумно люблю
+И мне тебя очень не хватает😖😖😖
+Пиздец,я тебя аж с июня не видела((((
+Безумно скучаю😚😣😤</h2>
+      <a class="questionersName" href="/id258678199">Юльча</a>
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">люблю тебяяя, все хорошо будет ,обещаю❗️❤️❗️</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="November 05, 2016 08:22:55 GMT" href="/devichenko_27/answers/140236989110">about 1 month ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/140236989110">3</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/140236989110/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>Как команда называется и в какое заведение?)</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">B.F.C<br />В РИИ</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="November 03, 2016 16:54:29 GMT" href="/devichenko_27/answers/140216790454">about 1 month ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/140216790454">8</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/140216790454/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>Че за треня?)</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">Танцы</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="November 03, 2016 16:06:49 GMT" href="/devichenko_27/answers/140212489910">about 1 month ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/140212489910">8</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/140212489910/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>Какие планы на завтра?</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">треня</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="November 02, 2016 18:19:03 GMT" href="/devichenko_27/answers/140205194166">about 1 month ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/140205194166">1</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/140205194166/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>Какое, на твой взгляд, самое красивое насекомое в мире?</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">Лерка Ромашка💞</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="October 26, 2016 09:06:36 GMT" href="/devichenko_27/answers/140117288118">about 2 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/140117288118">7</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/140117288118/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>Лера😌
+Красивая😍
+Возле браво часто видимся 
+Высокая (ну я знаю что ты старше меня, но для меня ты высокая)
+Не общаемся
+Удачи💕</h2>
+      <a class="questionersName" href="/MissMZV">Мария</a>
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">Спасибо Машуля💟💋</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="October 11, 2016 17:05:49 GMT" href="/devichenko_27/answers/139933955254">2 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139933955254">6</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139933955254/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>А ты с ней продолжаешь общаться
+это предательство
+очень подло.</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">повремени😏</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="October 07, 2016 16:11:05 GMT" href="/devichenko_27/answers/139882766774">2 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139882766774">7</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139882766774/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>Любовный треугольник блять😂</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">чеее , завяяз <br />они там отдельно че то мутят</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="October 07, 2016 15:56:28 GMT" href="/devichenko_27/answers/139882557622">2 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139882557622">5</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139882557622/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>как вообще Лера поступает? 
+  с первого раза она первая пролайкала твоего бывшего.  и сейчас они общаются
+а ты продолжаешь с ней общаться
+какая она подруга после этого</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">флаг им в руки</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="October 07, 2016 12:53:57 GMT" href="/devichenko_27/answers/139879251382">2 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139879251382">5</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139879251382/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>ц,так почему не гуляешь?</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">Не знаю</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="October 07, 2016 07:14:32 GMT" href="/devichenko_27/answers/139877883830">2 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139877883830">4</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139877883830/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>куда пропала?не видно не слышно</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">Сдохла</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="October 07, 2016 07:12:01 GMT" href="/devichenko_27/answers/139877870518">2 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139877870518">6</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139877870518/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>Какие имена ты бы дал(-а) своим детям?</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">девочку -Камета. Мальчика -не знаю</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="September 28, 2016 17:05:37 GMT" href="/devichenko_27/answers/139770354102">3 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139770354102">6</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139770354102/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>какой у тебя вес и рост?☺</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">168,51</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="September 27, 2016 04:53:23 GMT" href="/devichenko_27/answers/139751420854">3 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139751420854">7</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139751420854/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>Введи в поиске сообщений &quot;иди нахуй&quot;</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      <div class="streamItemContent streamItemContent-visual">  <div class="streamItem-visualItem"><a data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;media&quot;,&quot;Media&quot;,&quot;Photo&quot;]}" data-action="ImageOpen" data-url="http://akphoto3.ask.fm/0f7/09c5f/6347/44e2/b265/5e3118103654/large/353143.jpg" href="/devichenko_27/answers/139752427190/photo"><img onerror="this.src=&#39;/assets/no-image-6afacbff0ca48fa5d457004a8c6f7f1aa2bb0134e26c7e80fdb8d067589232fe.png&#39;" src="http://akphoto3.ask.fm/0f7/09c5f/6347/44e2/b265/5e3118103654/original/353143.jpg" /></a></div>
+</div>
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="September 27, 2016 03:55:15 GMT" href="/devichenko_27/answers/139752427190">3 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139752427190">4</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139752427190/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>ааа она приедет в рд ещё?</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">Конечно конечно , не сомневайся 😏</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="September 25, 2016 16:33:20 GMT" href="/devichenko_27/answers/139732082358">3 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139732082358">4</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139732082358/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>По кому скучаешь ?</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">По этой казюле</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      <div class="streamItemContent streamItemContent-visual">  <div class="streamItem-visualItem"><a data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;media&quot;,&quot;Media&quot;,&quot;Photo&quot;]}" data-action="ImageOpen" data-url="http://akphoto3.ask.fm/f76/2c034/78c3/492e/9222/6ad7eef55d3c/large/2141061.jpg" href="/devichenko_27/answers/139732027318/photo"><img onerror="this.src=&#39;/assets/no-image-6afacbff0ca48fa5d457004a8c6f7f1aa2bb0134e26c7e80fdb8d067589232fe.png&#39;" src="http://akphoto3.ask.fm/f76/2c034/78c3/492e/9222/6ad7eef55d3c/original/2141061.jpg" /></a></div>
+</div>
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="September 25, 2016 16:32:10 GMT" href="/devichenko_27/answers/139732027318">3 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139732027318">5</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139732027318/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>хочешь вернуть общение</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">Мы общаемся как бы</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="September 25, 2016 16:20:23 GMT" href="/devichenko_27/answers/139731902134">3 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139731902134">2</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139731902134/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>а с Ковтун?</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">Че с Ковтун</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="September 25, 2016 16:18:58 GMT" href="/devichenko_27/answers/139731749558">3 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139731749558">3</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139731749558/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>Кто чаще всего на телефон звонит ?)</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">Ну если не считать родителей - Илья</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="September 25, 2016 09:54:09 GMT" href="/devichenko_27/answers/139726844086">3 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139726844086">4</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139726844086/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>На какую фотографию ты любишь смотреть?</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      <div class="streamItemContent streamItemContent-visual">  <div class="streamItem-visualItem"><a data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;media&quot;,&quot;Media&quot;,&quot;Photo&quot;]}" data-action="ImageOpen" data-url="http://akphoto3.ask.fm/8ea/7cb4c/5287/4286/a810/1104cdba8536/large/1839549.jpg" href="/devichenko_27/answers/139691426486/photo"><img onerror="this.src=&#39;/assets/no-image-6afacbff0ca48fa5d457004a8c6f7f1aa2bb0134e26c7e80fdb8d067589232fe.png&#39;" src="http://akphoto3.ask.fm/8ea/7cb4c/5287/4286/a810/1104cdba8536/original/1839549.jpg" /></a></div>
+</div>
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="September 22, 2016 16:50:27 GMT" href="/devichenko_27/answers/139691426486">3 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139691426486">9</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139691426486/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>как дела?</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">По кайфу</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="September 11, 2016 07:33:27 GMT" href="/devichenko_27/answers/139528065462">3 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139528065462">2</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139528065462/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>Сколько с Ильёй вместе?</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">Завтра месяц будет❤️</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="September 10, 2016 16:50:45 GMT" href="/devichenko_27/answers/139518078902">3 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139518078902">9</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139518078902/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>Лера✨Девиченко✨в 10 классе✨лп Лера✨красивая✨веселая✨парень Илья✨счастья вам✨💕</h2>
+      <a class="questionersName" href="/krisSer2">Кристина</a>
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">конечно конечно моя ты золотая</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="September 10, 2016 02:35:06 GMT" href="/devichenko_27/answers/139509827766">3 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139509827766">5</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139509827766/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+
+    
+
+
+  <div class="item streamItem streamItem-answer">
+
+
+    
+    
+    <div class="streamItemContent streamItemContent-question">
+      <h2>Скрин диалогов</h2>
+      
+</div>
+
+  
+
+    <div class="answerWrapper">
+      <p class="streamItemContent streamItemContent-answer">Не🙅🏽🙅🏽</p>
+      <p class="readMore">
+        <a class="button" data-action="ReadMore" href="#">View more</a>
+      </p>
+    </div>
+
+
+
+      
+
+
+  <div class="streamItemContent streamItemContent-footer">
+
+
+    <a class="streamItemsAge" title="September 10, 2016 01:37:52 GMT" href="/devichenko_27/answers/139503907254">3 months ago</a>
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  <a class="counter" href="/devichenko_27/answers/139503907254">2</a>
+</div>
+
+    <a title="More" class="streamItemOptions-more icon-more" data-action="PopoverOpen" href="#"></a><nav class="afm-popover right" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/devichenko_27/answers/139503907254/flag" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;report-topic&quot;,&quot;Answer reports&quot;,&quot;New reason&quot;]}" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a title="Share now" class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;share-topic&quot;,&quot;Share answer&quot;,&quot;New&quot;]}" href="#"></a>
+  </div>
+
+</div>
+
+  <a class="viewMore" data-action="ItemsMore" data-url="/devichenko_27/answers/more?page=1&amp;score=1481287003" href="#">Loading…</a>
+</div>
+
+<div class="emptyResults icon-owl-sad" style="display:none">
+    <p>This user hasn’t answered any questions yet</p>
+    <p>Ask L.D. a question now</p>
+</div>
+
+          </div>
+
+            <div class="rsp-eql-desktop side-column">
+              <div class="sticky-anchor">
+                
+                  <div class="ask-box side-section">
+    <h3>Ask <span dir="ltr">@devichenko_27</span>:</h3>
+    <form id="askForm" autocomplete="off" class="new_question" data-gtm="{&quot;name&quot;:&quot;ask-question&quot;,&quot;meta&quot;:[]}" data-action="FormXHRSubmit" action="/devichenko_27/ask" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="h1wwX7C3YyjHyWPs0/qcciCEkr/6TsHjiZmbkSwMslj16cU3NV1txocwXAds9+7I9fgk0OocfWpLRgoRvzpbPA==" />
+
+  <div class="question">
+    <textarea placeholder="What, when, why… ask" autofocus="autofocus" data-counter=".optionsBar-counter" data-limit="300" data-atcomplete="/account/friends/autocomplete" name="question[question_text]" id="question_question_text">
+</textarea>
+  </div>
+
+
+  <div class="optionsBar">
+    
+          <button name="button" type="button" class="btn-primary" data-action="SaveQuestionAndPopupOpen" data-url="/login/prompt">Ask</button>
+
+    <div class="optionsBar-option optionsBar-counter"></div>
+
+    <input name="question[anonymous]" disabled="disabled" type="hidden" value="0" /><input disabled="disabled" class="checkbox" id="single_question_anonymous" type="checkbox" value="true" name="question[anonymous]" />
+    <label for="single_question_anonymous" class="optionsBar-askMode">
+      <span>Ask anonymously</span>
+    </label>
+  </div>
+
+  
+
+  
+
+</form>
+  </div>
+
+
+                
+                
+              </div>
+              <div data-stick-to=".sticky-anchor">
+                <div class="askfm-ad-slot askfm-ad-slot-side askfm-ad-slot-300x250" data-url="/ads/304?login=devichenko_27"><a target="_blank" class="askfm-default-ad" style="display:none" href="http://support.ask.fm"><img src="/assets/house_banner_support_center-e233cf79b06de1971be117e8c49d3c33d7a7e9ba6d8b9f487a0733202b3fd865.png" /></a></div>
+                <footer>
+  <nav class="site-links">
+    <a target="_blank" href="http://about.ask.fm?lang=en">About ASKfm</a>
+    <a target="_blank" href="http://safety.ask.fm?lang=en">Safety center</a>
+    <a target="_blank" href="http://support.ask.fm?lang=en">Help</a>
+    <a target="_blank" href="http://safety.ask.fm/community-guidelines/?lang=en">Community Guidelines</a>
+    <a target="_blank" href="http://about.ask.fm/terms/?lang=en">Terms of use</a>
+    <a target="_blank" href="http://about.ask.fm/privacy-policy/?lang=en">Privacy policy</a>
+    <a target="_blank" href="http://about.ask.fm/cookie-policy/?lang=en">Cookies policy</a>
+    <a target="_blank" href="http://about.ask.fm/advertising/?lang=en">Advertising</a>
+  </nav>
+  <nav class="social-links">
+  <a class="icon-askfm-solo" target="_blank" href="http://ask.fm/askfm"></a>
+  <a class="icon-facebook-solo" target="_blank" href="https://www.facebook.com/askfmpage"></a>
+  <a class="icon-twitter-solo" target="_blank" href="https://twitter.com/askfm"></a>
+  <a class="icon-instagram-solo" target="_blank" href="https://instagram.com/askfm"></a>
+</nav>
+
+  <span class="copyright">&copy; Ask.fm 2016</span>
+  <a class="language icon-language" title="Choose language" data-action="PopupOpen" data-url="/home/languages" data-gtm="{&quot;name&quot;:&quot;popup&quot;,&quot;meta&quot;:[&quot;language&quot;,&quot;Home&quot;,&quot;Locales&quot;]}" href="#">English</a>
+</footer>
+
+              </div>
+            </div>
+        </div>
+      </div>
+</div>
+      <div class="rsp-eql-mobile"><div class="askfm-ad-slot askfm-ad-slot-bottom askfm-ad-slot-320x50" data-url="/ads/504?login=devichenko_27"></div></div>
+
+
+
+
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W5DVX4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript><img src="//pixel.quantserve.com/pixel/p-r1DAFnUnQgqGA.gif?labels=_fp.event.Default" style="display:none;" border="0" height="1" width="1" alt="Quantcast"/></noscript>
+</body>
+</html>
+
